@@ -1,0 +1,7 @@
+version: "2"
+services:
+  php7:
+    build: "./"
+    working_dir: "/var/www/app"
+    volumes:
+      - ./:/var/www/app
